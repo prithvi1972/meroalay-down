@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meroalay - Under Maintenance</title>
+    <!-- Include Font Awesome library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            color: #888;
+        }
+
+        .building-img {
+            width: 80%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        p {
+            font-size: 20px;
+            color: #555;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            margin-top: 20px; /* Increased margin-top */
+        }
+
+        .fa-icon-contact {
+            font-size: 36px;
+            margin-right: 30px;
+            margin-bottom: 0;
+            cursor: pointer;
+            color: #555;
+        }
+
+        .contact-us {
+            font-weight: bold; /* Make text bold */
+            letter-spacing: 2px; /* Increase letter spacing */
+            text-transform: uppercase;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+                & h1 {
+                    font-size: 30px;
+                }
+                & p {
+                    font-size: 16px;
+                }
+                .contact-info {
+                    font-size: 18px;
+                }
+                .fa-icon,
+                .fa-icon-contact {
+                    font-size: 30px;
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <img src="building.jpeg" alt="Under Maintenance Image" class="building-img">
+    <h1>Under Maintenance</h1>
+    <p>Stay tuned! We're making improvements to enhance your shopping experience.</p>
+    <p class="contact-us">Contact Us</p> <!-- Bold text class added -->
+    <div class="contact-info">
+        <i class="fas fa-phone fa-icon-contact fa-phone-icon"></i>
+        <i class="fab fa-instagram fa-icon-contact fa-instagram-icon"></i>
+        <i class="far fa-envelope fa-icon-contact fa-email-icon"></i>
+    </div>
+</div>
+</body>
+</html>
